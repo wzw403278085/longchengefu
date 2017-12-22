@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>重置密码</title>
+    <script type="text/javascript" src="js/resize.js"></script>
+    <link rel="stylesheet" href="css/mui.min.css"/>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/mui.min.js"></script>
+    <link rel="stylesheet" href="css/whj.css"/>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav zhanghao-header">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"><span>首页</span></a>
+    <h1 class="mui-title">重置密码</h1>
+</header>
+<div class="mui-content">
+    <div class="zhanghao-list reset-list">
+        <div class="zhanghao-item cur">
+            <form action="">
+                <ul class="zhuce">
+                    <li>
+                        <span class="icon">&#xe66d;</span>
+                        <input type="text" placeholder="请填写手机号"/>
+                    </li>
+                    <li>
+                        <span class="icon">&#xe605;</span>
+                        <input type="text" placeholder="请填写验证码"/>
+                        <button class="zh-yanzhengma" id="yanzhengma">发送验证码</button>
+                    </li>
+                    <li>
+                        <span class="icon">&#xe952;</span>
+                        <input type="text" placeholder="请填写新密码"/>
+                    </li>
+                    <li>
+                        <span class="icon">&#xe952;</span>
+                        <input type="text" placeholder="请确认新密码"/>
+                    </li>
+                </ul>
+                <input type="submit" value="确定重置"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var n;
+    var timer;
+
+    function jishi() {
+
+        var num = document.getElementById("yanzhengma");
+        if (n > 0) {
+            n--;
+            num.setAttribute("disabled", "disabled");
+            num.innerHTML = "发送验证码(" + n + ")";
+        } else {
+            clearInterval(timer);
+            timer = undefined;
+            num.innerHTML = "发送验证码";
+            $("#yanzhengma").removeAttr("disabled");
+        }
+    }
+
+    $("#yanzhengma").click(function (e) {
+        n = 60;
+
+        e.preventDefault();
+        timer = setInterval(jishi, 1000);
+    })
+</script>
+</body>
+</html>

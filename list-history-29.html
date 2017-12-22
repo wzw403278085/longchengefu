@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>招商银行-龙城e付</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/mui_common.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/list-history-29.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-extra.css">
+    <link rel="stylesheet" href="css/LCalendar.css">
+    <script type="text/javascript" src="js/LCalendar.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <h1 class="mui-title ">历史缴费记录</h1>
+    <a class="mui-action-back mui-icon mui-icon-contact mui-pull-right"></a>
+</header>
+<div class="mui-content">
+    <div class="top clear">
+        <form action="">
+            <div class="query">
+
+                <input type="text" placeholder="搜索缴费相关信息">
+                <input type="submit" value="查询">
+
+            </div>
+            <div class="top-2 clear">
+                <div class="list">
+                    <span class="fenlei">分类：</span>
+                    <select>
+                        <option value="1">全部</option>
+                        <option value="2">类别1</option>
+                        <option value="3">类别2</option>
+                        <option value="4">类别3</option>
+                    </select>
+                </div>
+                <div class="time">
+                    <span class="fenlei">时间：<input class="time-1" type="text" value="09~12" placeholder="09~12"
+                                                   name="start_date" id="start_date" readonly="readonly"/> </span>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div class="con clear">
+        <ul>
+            <li><h5>共缴纳 <span>5</span> 笔费用</h5></li>
+            <li>
+                <div class="mui-left">
+                    <h4>共支付 <span>10000</span> 元</h4>
+                    <p>交易单号： <span>201711130001</span></p>
+                    <p>商户： <span>太原理工大学</span></p>
+                    <p>姓名： <span>杨洋</span></p>
+                </div>
+                <div class="mui-right">
+                    <p>2017.10.28</p>
+                    <h6>支付成功！</h6>
+                    <button>查看详情 &#xe67a;</button>
+                </div>
+
+            </li>
+            <li>
+                <div class="mui-left">
+                    <h4>共支付 <span>10000</span> 元</h4>
+                    <p>交易单号： <span>201711130001</span></p>
+                    <p>商户： <span>太原理工大学</span></p>
+                    <p>姓名： <span>鹿晗</span></p>
+                </div>
+                <div class="mui-right">
+                    <p>2017.10.28</p>
+                    <h6>支付成功！</h6>
+                    <button>查看详情 &#xe67a;</button>
+                </div>
+
+            </li>
+            <li>
+                <div class="mui-left">
+                    <h4>共支付 <span>10000</span> 元</h4>
+                    <p>交易单号： <span>201711130001</span></p>
+                    <p>商户： <span>太原理工大学</span></p>
+                    <p>姓名： <span>邓超</span></p>
+                </div>
+                <div class="mui-right">
+                    <p>2017.10.28</p>
+                    <h6 class="loser">支付失败！</h6>
+                    <button>查看详情 &#xe67a;</button>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var calendar = new LCalendar();
+    calendar.init({
+        'trigger': '#start_date', //标签id
+        'type': 'ym', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+        'minDate': (new Date().getFullYear() - 5) + '-' + 1 + '-' + 1, //最小日期
+        'maxDate': (new Date().getFullYear() + 5) + '-' + 12 + '-' + 31 //最大日期
+    });
+
+    //        		$(function() {
+    //        			$('#start_date').date();
+    //        			$('#end_date').date();
+    //        		});
+</script>
+</body>
+</html>

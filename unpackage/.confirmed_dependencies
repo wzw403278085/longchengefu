@@ -1,0 +1,120 @@
+{
+  "index.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "img/img-1/index/icon_4.png",
+      "font/iconfont.ttf",
+      "img/img-1/index/icon_1.png",
+      "img/img-1/index/icon_7.png",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "img/img-1/index/icon_6.png",
+      "css/index.css",
+      "img/img-1/index/icon_2.png",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/mui_common.css",
+      "img/img-1/index/banner.png",
+      "img/img-1/index/icon_5.png",
+      "img/img-1/index/icon_3.png",
+      "js/jquery-3.2.1.min.js"
+    ],
+    "refer": []
+  },
+  "21.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/img-1/index/banner.png",
+      "css/public.css",
+      "css/cost.css",
+      "fonts/login_font/iconfont.ttf",
+      "css/whj.css",
+      "js/jquery-3.2.1.min.js",
+      "js/resize.js"
+    ],
+    "refer": []
+  },
+  "05login.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "fonts/login_font/iconfont.ttf",
+      "css/whj.css",
+      "js/jquery-3.2.1.min.js",
+      "js/resize.js",
+      "05login.html"
+    ],
+    "refer": []
+  },
+  "29.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "css/LCalendar.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui_common.css",
+      "css/mui.min.css",
+      "js/LCalendar.js",
+      "css/29.css",
+      "css/icons-extra.css"
+    ],
+    "refer": []
+  },
+  "23user.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/whj.css",
+      "js/jquery-3.2.1.min.js"
+    ],
+    "refer": []
+  },
+  "cost.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "img/cost1.png",
+      "css/mui.min.css",
+      "img/img-1/index/banner.png",
+      "css/public.css",
+      "img/cost3.png",
+      "css/cost.css"
+    ],
+    "refer": []
+  },
+  "04choose_bdType.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/whj.css",
+      "js/jquery-3.2.1.min.js",
+      "js/resize.js",
+      "img/img-3/bd_touxiang.gif"
+    ],
+    "refer": []
+  },
+  "list-xq-17d.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/list-xq-17d.css",
+      "css/mui.min.css",
+      "css/public.css",
+      "img/zdxq.png",
+      "css/icons-extra.css",
+      "js/jquery-3.2.1.min.js"
+    ],
+    "refer": []
+  }
+}

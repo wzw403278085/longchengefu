@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>招商银行-龙城e付</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/mui_common.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-extra.css">
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a id="area" class="mui-icon mui-icon-location mui-pull-left"><span id="selectedCity">太原市</span> </a>
+    <h1 class="mui-title ">业务大厅</h1>
+    <a id="gwc" class="mui-action-back mui-icon mui-icon-contact mui-pull-right"></a>
+</header>
+<div class="mui-content">
+    <div class="banner clear">
+        <img src="img/img-1/index/banner.png" alt="">
+    </div>
+    <div id="slider" class="mui-slider">
+        <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+        <div class="mui-slider-group clean">
+            <div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+                <div id="scroll1" class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <div class="mui-table-view">
+                            <div class="mui-table-view-cell">
+                                <ul>
+                                    <li>
+                                        <img src="img/img-1/index/icon_1.png" alt="">
+                                        <p>高校缴费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_2.png" alt="">
+                                        <p>中小学缴费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_3.png" alt="">
+                                        <p>幼儿园缴费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_4.png" alt="">
+                                        <p>培训费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_5.png" alt="">
+                                        <p>物业缴费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_6.png" alt="">
+                                        <p>党团费</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/img-1/index/icon_7.png" alt="">
+                                        <p>敬请期待</p>
+                                    </li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item2mobile" class="mui-slider-item mui-control-content">
+                <div id="scroll2" class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <div class="mui-table-view">
+                            <div class="mui-table-view-cell">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item3mobile" class="mui-slider-item mui-control-content">
+                <div id="scroll3" class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <div class="mui-table-view">
+                            <div class="mui-table-view-cell">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sliderSegmentedControl"
+             class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+            <a class="mui-control-item mui-active" href="#item1mobile"></a>
+            <a class="mui-control-item" href="#item2mobile"></a>
+            <a class="mui-control-item" href="#item3mobile"></a>
+        </div>
+    </div>
+    <!--选择城市-->
+    <div class="maskCity">
+        <div class="maskCity_con">
+            <p class="title">请选择城市<i id="close">&#xe6a6;</i></p>
+            <ul id="city">
+                <li class="cur">太原市
+                    <div><p></p></div>
+                </li>
+                <li>大同市
+                    <div><p></p></div>
+                </li>
+                <li>运城市
+                    <div><p></p></div>
+                </li>
+                <li>晋中市
+                    <div><p></p></div>
+                </li>
+                <li>临汾市
+                    <div><p></p></div>
+                </li>
+                <li>阳泉市
+                    <div><p></p></div>
+                </li>
+                <li>长治市
+                    <div><p></p></div>
+                </li>
+                <li>晋中市
+                    <div><p></p></div>
+                </li>
+                <li>忻州市
+                    <div><p></p></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--提示弹窗-->
+    <div class="Prompt">
+        <div class="Prompt_con">
+            <div class="title">&#xe6e0;</div>
+            <div class="title mui-hidden">&#xe656;</div>
+            <p>您未登录您的龙城e付账号，<br>请先登录！</p>
+            <button>确定</button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#city li").click(function () {
+            $(this).addClass("cur").siblings().removeClass("cur");
+            var txt = $(this).text();
+            $("#selectedCity").html(txt);
+            $(".maskCity").css("display", "none");
+        });
+        $("#area").click(function () {
+            $(".maskCity").css("display", "block");
+        });
+        $("#close").click(function () {
+            $(".maskCity").css("display", "none");
+        });
+    });
+</script>
+</body>
+</html>

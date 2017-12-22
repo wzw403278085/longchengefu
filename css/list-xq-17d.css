@@ -1,0 +1,54 @@
+							/*头部*/
+.mui-bar{background: #D54640; box-shadow: none;}
+.mui-bar-nav.mui-bar .mui-icon{color: #fff;}
+.mui-bar .mui-title{color: #fff;}
+.mui-bar .index{color: #fff; line-height: 2.8rem;}
+
+							/*主体*/
+.mui-content,body{background: #F1EBE7;}
+.mui-content{position: relative;}
+.Title{width: 100%; margin-top: 1rem; padding: 1rem 0; background: #fff; border-bottom: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC;}
+.Title .one{position: relative; width: 90%; margin: 0 auto; border-bottom: 1px solid #CCCCCC;}
+.Title .one h3{font-size: .8rem; font-weight: normal;}
+.Title .one p{font-size: .8rem;}
+.Title .one span{position: absolute; top: 0; right: 0; display: block; width: 1.2rem; height: 1.2rem; color: #fff; line-height: 1.2rem; font-size: .6rem; text-align: center; background: #D54640; border-radius: .3rem;}
+.Title .two{width: 100%; padding: .5rem 1.2rem; border-bottom: 1px solid #CCCCCC;}
+.Title .two p{margin: 0; font-size: .8rem;}
+.Title .three{position: relative; width: 100%; padding: 1rem 0 0 1.2rem;}
+.Title .three p{margin: 0; font-size: .8rem; color: #666666;}
+.Title .three p span{font-weight: 700; color: #000;}
+.Title .three ul{margin: 1rem 0 0 0; padding: 0;}
+.Title .three ul li{float: left; width: 25%; height: 2.5rem; padding-left: .5rem; border-left: 1px solid #CCCCCC;}
+.Title .three ul li span{color: #D54640; font-size: .8rem;}
+.Title .three .yuqi{position: absolute; top: 1rem; right: 1rem; width: 3rem; height: 1.5rem; color: #fff; text-align: center; line-height: 1.5rem; font-size: .8rem; background: #001AFF; border-radius: .2rem;}
+.jfxm_con{width: 100%; margin: 1rem 0 4rem; background: #fff; border-top: 1px solid #CCCCCC;}
+.jfxm_con .conBox{position: relative; width: 100%; padding: 1rem; border-bottom: 1px solid #CCCCCC;}
+.jfxm_con .conBox p{margin: 0; color: #666; font-size: .8rem;}
+.jfxm_con .conBox p span{color: #000; font-weight: 700;}
+.jfxm_con .conBox .sign{position: absolute; top: 1rem; right: 1rem; width: 3rem; height: 1.5rem; color: #fff; text-align: center; line-height: 1.4rem; font-size: .8rem; border-radius: .2rem;}
+.jfxm_con .conBox .no{background: #FF6600;}
+.jfxm_con .conBox .yi{background: #00CC33;}
+.jfxm_con .conBox .yuqi{background: #001AFF;}
+.jfxm_con .conBox ul{margin: 1.5rem 0 0 0; padding: 0;}
+.jfxm_con .conBox ul li{float: left; width: 25%; height: 2.5rem; padding-left: .5rem; border-left: 1px solid #CCCCCC;}
+.jfxm_con .conBox ul li span{color: #D54640; font-size: .8rem;}
+.jfxm_con .conBox ul li b{font-weight: normal; font-size: .8rem;}
+.jfxm_con .conBox i{display: block; width: 1.2rem; height: 1.2rem; margin-right: .5rem; font-family: icon; color: #FF0000; text-align: center; font-weight: 700; font-size: 1rem; line-height: 1.2rem; font-style: normal; border: 1px solid #666666; border-radius: .3rem;}
+.jfxm_con .conBox i.cur{border-color: #FF1F1F;}
+.jfxm_con .conBox i.pay{border: none;}
+.jfxm_con .conBox i.pay img{width: 100%;}
+.footer{position: fixed; bottom: 0; width: 100%; height: 3.5rem; background: #333333;}
+.footer i{display: block; width: 1.2rem; height: 1.2rem; margin: 1.2rem .5rem; font-family: icon; color: #FF0000; text-align: center; font-size: 1rem; line-height: 1.2rem; font-weight: 700; font-style: normal; border: 1px solid #666666; border-radius: .3rem; background: #fff;}
+.footer .all{margin-right: .5rem; color: #999999; line-height: 3.5rem; font-size: 1rem;}
+.footer ul{margin: .8rem 0; padding: 0;}
+.footer ul li{float: left; width: 23%; height: 2rem; padding-left: .5rem; border-left: 1px solid #CCCCCC;}
+.footer ul li span{color: #D54640; font-size: .8rem;}
+.footer ul li b{font-weight: normal;}
+.footer ul li p{margin: 0; color: #fff; line-height: 1rem; font-size: .8rem;}
+.footer button{width: 27%; height: 100%; margin-top: -.8rem; color: #fff; font-size: 1rem; letter-spacing: .5rem; background: #FF0000; border: none;}
+.mask{display: none; z-index: 100; position: absolute; top: 0; width: 100%; height: 110%; background: rgba(102,102,102,.5);}
+.mask .mask_con{position:fixed; top:50%; left:50%; margin-left: -42.5%; margin-top: -6.5rem; width: 85%; padding: 0 1rem; background: #fff;}
+.mask .mask_con .title{width: 100%; color: #000; font-family: icon; font-size: 1.2rem; text-align: center; line-height: 2.5rem; border-bottom: 1px solid #D7D7D7;}
+.mask .mask_con input{margin: 2rem 0;}
+.mask .mask_con button{width: 40%; height: 3rem; margin: 0 0 1rem 0; color: #fff; font-size: 1rem; letter-spacing: .5rem; background: #FF0000; border: none;}
+.mask .mask_con .qx{margin-right: 10%; color: #525252; background: #E6E6E6;}

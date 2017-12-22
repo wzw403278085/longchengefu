@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>龙城e付-缴费</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/lisr-wuye-21.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <a class="index mui-pull-left">首页</a>
+    <h1 class="mui-title mui-hidden">高校缴费</h1>
+    <h1 class="mui-title mui-hidden">中小学缴费</h1>
+    <h1 class="mui-title mui-hidden">幼儿园缴费</h1>
+    <h1 class="mui-title mui-hidden">培训费</h1>
+    <h1 class="mui-title">物业缴费</h1>
+    <h1 class="mui-title mui-hidden">党团费</h1>
+    <a class="mui-icon mui-icon-contact mui-pull-right"></a>
+</header>
+<div class="mui-content">
+    <div class="banner">
+        <img src="img/img-1/index/banner.png" alt=""/>
+    </div>
+    <div class="Querybill">
+        <ul>
+            <li>
+                <div class="mui-pull-left"><img src="img/cost3.png"/></div>
+                <input id="jfsh" class="mui-pull-right" type="text" placeholder="请选择缴费商户" readonly="readonly"/>
+                <span></span>
+            </li>
+            <li>
+                <div class="mui-pull-left"><img src="img/cost1.png"/></div>
+                <select class="mui-pull-right">
+                    <option value="">请选择缴费项目</option>
+                    <option value="">高校缴费</option>
+                    <option value="">中小学缴费</option>
+                    <option value="">幼儿园缴费</option>
+                    <option value="">培训费</option>
+                    <option value="">物业费</option>
+                    <option value="">党费/团费</option>
+                </select>
+                <span></span>
+            </li>
+            <li>
+                <div class="mui-pull-left"><img src="img/cost3.png"/></div>
+                <select class="mui-pull-right">
+                    <option value="">请选择小区</option>
+                    <option value="">小区1</option>
+                    <option value="">小区2</option>
+                    <option value="">小区3</option>
+                    <option value="">小区4</option>
+                </select>
+                <span></span>
+            </li>
+            <li>
+                <div class="mui-pull-left"><img src="img/cost1.png"/></div>
+                <select class="mui-pull-right">
+                    <option value="">请选择楼号/单元/户号</option>
+                    <option value="">1号楼</option>
+                    <option value="">2号楼</option>
+                    <option value="">3号楼</option>
+                    <option value="">4号楼</option>
+                    <option value="">5号楼</option>
+                    <option value="">6号楼</option>
+                </select>
+                <span></span>
+            </li>
+            <!--<li>
+                <div class="mui-pull-left"><img src="img/cost2.png" /></div>
+                <input class="mui-pull-right" type="text" placeholder="请填写学号" />
+            </li>
+            <li>
+                <div class="mui-pull-left"><img src="img/cost2.png" /></div>
+                <input class="mui-pull-right" type="text" placeholder="请填写姓名" />
+            </li>-->
+        </ul>
+        <button>查询账单</button>
+        <div class="instruction"><p class="cur">说明：这里是一段关于此缴费的某说明文字，本次缴费</p><span id="text">&#xe698;</span></div>
+    </div>
+    <!--请选择缴费商户-->
+    <div class="maskCity sh">
+        <div class="maskCity_con">
+            <p class="title">请选择缴费商户<i class="close">&#xe6a6;</i></p>
+            <input type="text" placeholder="搜索缴费商户名称"/>
+            <button>搜索</button>
+            <ul id="city">
+                <li class="cur">山西大学
+                    <div><p></p></div>
+                </li>
+                <li>太原理工大学
+                    <div><p></p></div>
+                </li>
+                <li>中北大学
+                    <div><p></p></div>
+                </li>
+                <li>山西师范大学
+                    <div><p></p></div>
+                </li>
+                <li>山西财经大学
+                    <div><p></p></div>
+                </li>
+                <li>山西医科大学
+                    <div><p></p></div>
+                </li>
+                <li>山西农业大学
+                    <div><p></p></div>
+                </li>
+                <li>太原科技大学
+                    <div><p></p></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        $("#text").click(function () {
+            $(this).prev().removeClass("cur");
+            $(this).css("display", "none");
+        });
+        $("#jfsh").click(function () {
+            $(".sh").css("display", "block");
+        });
+        $(".close").click(function () {
+            $(".maskCity").css("display", "none");
+        });
+        $("#city li").click(function () {
+            $(this).addClass("cur").siblings().removeClass("cur");
+            var txt = $(this).text();
+            $("#jfsh").val(txt);
+            $(".sh").css("display", "none");
+        });
+    });
+</script>
+</body>
+</html>

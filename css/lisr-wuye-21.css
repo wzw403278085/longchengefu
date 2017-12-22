@@ -1,0 +1,238 @@
+/*头部*/
+.mui-bar {
+    background: #D54640;
+    box-shadow: none;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+    color: #fff;
+}
+
+.mui-bar .mui-title {
+    color: #fff;
+}
+
+.mui-bar .index {
+    color: #fff;
+    line-height: 2.8rem;
+}
+
+/*主体*/
+.mui-content, body {
+    background: #F1EBE7;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.Querybill {
+    padding: 0 1rem;
+}
+
+.Querybill ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Querybill ul li {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    padding: .5rem 0;
+    margin-top: 1rem;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: .3rem;
+}
+
+.Querybill ul li div {
+    width: 18%;
+    height: 100%;
+    border-right: 1px solid #CCCCCC;
+}
+
+.Querybill ul li div img {
+    display: block;
+    width: 50%;
+    height: 80%;
+    margin: .2rem auto;
+}
+
+.Querybill ul li select {
+    width: 80%;
+    height: 2rem;
+    padding: 0;
+    color: #757575;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.Querybill ul li input {
+    width: 80%;
+    height: 2rem;
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.Querybill ul li span {
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    width: 0;
+    height: 0;
+    border-left: .6rem solid transparent;
+    border-right: .6rem solid transparent;
+    border-top: .8rem solid #999999;
+}
+
+.Querybill button {
+    width: 75%;
+    height: 3rem;
+    margin: 2rem 2.8rem;
+    color: #fff;
+    font-size: 1rem;
+    background: #FF0000;
+    border: none;
+}
+
+.Querybill .instruction {
+    position: relative;
+    width: 100%;
+    padding-top: .5rem;
+    border-top: 1px solid #CCCCCC;
+}
+
+.Querybill .instruction p {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.Querybill .instruction p.cur {
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Querybill .instruction span {
+    position: absolute;
+    top: .5rem;
+    right: .2rem;
+    font-family: icon;
+    color: #999999;
+    font-size: 1.5rem;
+}
+
+.mui-content .maskCity {
+
+    display: none;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    background: rgba(102, 102, 102, .5);
+}
+
+.maskCity .maskCity_con {
+    position: absolute;
+    width: 80%;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: .3rem;
+    bottom: 15%;
+    left: 10%;
+}
+
+.maskCity .maskCity_con .title {
+    position: relative;
+    width: 100%;
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 3rem;
+    background: #D54640;
+}
+
+.maskCity .maskCity_con .title i {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-style: normal;
+    color: #fff;
+    font-family: icon;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.maskCity .maskCity_con ul {
+    margin: 0;
+    padding: 0;
+}
+
+.maskCity .maskCity_con ul li {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    padding-left: 3rem;
+    line-height: 3rem;
+    color: #4F4F4F;
+    font-size: 1.1rem;
+    border-top: 1px solid #D4D4D4;
+}
+
+.maskCity .maskCity_con ul li div {
+    position: absolute;
+    top: .9rem;
+    left: 1rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #707070;
+    border-radius: 50%;
+}
+
+.maskCity .maskCity_con ul li div p {
+    width: .9rem;
+    height: .9rem;
+    margin: .12rem .15rem;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.maskCity .maskCity_con ul li.cur {
+    color: #DC635E;
+}
+
+.maskCity .maskCity_con ul li.cur div {
+    border-color: #FF0000;
+}
+
+.maskCity .maskCity_con ul li.cur div p {
+    background: #FF0000;
+}
+
+.maskCity .maskCity_con input {
+    width: 90%;
+    height: 2rem;
+    margin: 0 0 .5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.maskCity .maskCity_con button {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    width: 20%;
+    height: 2rem;
+    color: #fff;
+    border: none;
+    background: #FF0000;
+}

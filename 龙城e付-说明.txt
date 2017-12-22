@@ -1,0 +1,39 @@
+HTML页面      			对应网页
+
+index.html			业务大厅
+
+lisr-wuye-21.html		物业缴费
+
+list-binding-04.html		选择账号绑定方式
+		
+list-defeated-17c.html		不须缴费
+		
+list-Details-32.html		缴费记录详情
+
+list-history-29.html		历史缴费记录	
+	
+list-login-05.html		绑定新账号
+
+list-reset-16.html		重置密码
+	
+list-shanghu-27.html		绑定缴费商户
+
+list-shanghu-33.html		商户申请
+
+list-success-17f.html		缴费成功
+
+list-user-23.html		用户中心
+
+list-xiugai-26.html		修改密码
+
+list-xq-17d.html		输入我要缴费金额	
+
+提示弹窗，选择弹窗在 业务大厅页面
+
+缴费商户在物业缴费页面
+
+----总计:41个界面，实做19种界面；
+
+
+
+

@@ -1,0 +1,165 @@
+.mui-content .top {
+    margin-top: 20px;
+
+}
+
+.mui-content .top .query {
+    position: relative;
+    margin-bottom: -9%;
+}
+
+.mui-content .top input:nth-child(1) {
+    height: 50px;
+    border-left: none;
+    border-right: none;
+}
+
+.mui-content .top input:nth-child(2) {
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    padding: 6px 20px;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.list {
+    width: 46%;
+}
+
+.time {
+    width: 50%;
+}
+
+.list {
+    float: left;
+}
+
+.time {
+    float: right;
+}
+
+.list select {
+    width: 50%;
+    padding: 0;
+    color: #D54640;
+    border: solid 1px #000;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+    text-align: center;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.list .fenlei, .time .fenlei {
+    padding-left: 17px;
+    font-size: 1rem;
+    color: #767676;
+}
+
+.time {
+    width: 50%;
+    padding: 0;
+
+    color: #D54640;
+    margin-right: 6px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+}
+
+.time .fenlei {
+    border-left: 1px solid #ccc;
+}
+
+.time .fenlei #start_date {
+    color: #D54640;
+    border: none;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.top-2 {
+    padding-top: 3%;
+    border-top: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: -6%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.con {
+    margin-top: 15px;
+
+}
+
+.con ul {
+    font-family: icon;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.con ul li {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: -1px;
+    padding: 4% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con ul li h5 {
+    font-size: 1rem;
+    color: #3D3D3D;
+    padding: 3px 0;
+}
+
+.con ul li .mui-left h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.con ul li .mui-left h4 span {
+    color: #D54640;
+}
+
+.con ul li .mui-left p {
+    line-height: 1.5rem;
+}
+
+.con ul li .mui-right {
+    text-align: right;
+}
+
+.con ul li .mui-right p {
+    line-height: 1.5rem;
+}
+
+.con ul li .mui-right h6 {
+    color: #00CC33;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.con ul li .mui-right button {
+    margin-top: 5%;
+    padding: 10px 18px;
+}
+
+.con ul li .mui-right .loser {
+    color: #FF0000;
+}

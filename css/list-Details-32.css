@@ -1,0 +1,68 @@
+.mui-content ul{
+    margin-top:20px ;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.mui-content ul li{
+    width: 96%;
+    margin: 0 auto;
+    padding: 5% 0;
+    border-bottom: 1px solid #ccc;
+
+}
+.mui-content ul li h4{
+    font-size:1rem ;
+    font-weight: 500;
+}
+.mui-content ul li .xuehao span,.mui-content ul li .name span{
+    font-weight: 600;
+    color: #000;
+}
+.mui-content ul .zd{
+    border-bottom: none;
+}
+.mui-content ul .zd .mui-left{
+   float: left;
+}
+.mui-content ul .zd .mui-right{
+    float: right;
+}
+.mui-content ul li .ckzd{
+    border-color:#FF0000 ;
+    color:#FF0000  ;
+    padding:6px 16px ;
+    margin-top: 15%;
+
+}
+.mui-content ul li .ckzd:active{
+    background-color: #fff;
+}
+.mui-content ul li .mui-left{
+    float: left;
+}
+.mui-content ul li .mui-right{
+    float: right;
+    text-align: right;
+}
+.mui-content ul li .mui-left h4{
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.mui-content ul li .mui-left h4 span{
+    color:#D54640 ;
+}
+.mui-content ul li .mui-left h5{
+    line-height: 1.5rem;
+}
+.mui-content ul li .mui-left h5 span{
+    color:#000 ;
+    font-size: 1rem;
+}
+.mui-content ul li .mui-right h6{
+    color: #00CC33;
+    line-height: 1rem;
+}
+.mui-content ul li .mui-right p{
+    color:#D54640 ;
+}
